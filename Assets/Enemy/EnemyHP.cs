@@ -25,7 +25,7 @@ public class EnemyHP : MonoBehaviour
         ProcessHit();
     }
 
-    void ProcessHit()
+    public void ProcessHit()
     {
         curruntHP--; // ÇöÀç hp - 1
 

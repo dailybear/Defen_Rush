@@ -87,6 +87,7 @@ MonoBehaviour:
   shieldPivot: {fileID: 7653617593502421058}
   leftHand: {fileID: 4676726234365567328}
   rightHand: {fileID: 7267542515501996841}
+  castle: {fileID: 8768069527389820375, guid: 90eff552037059c49bc61f7060e8247f, type: 3}
 --- !u!114 &7099068377753809518
 MonoBehaviour:
   m_ObjectHideFlags: 0
