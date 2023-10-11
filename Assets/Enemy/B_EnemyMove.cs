@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class B_EnemyMove : MonoBehaviour
 {
-    [SerializeField] List<B_WayPoints> path = new List<B_WayPoints>();
+    [SerializeField] List<Waypoint> path = new List<Waypoint>();
     [SerializeField] float waitTime = 1f;
     private void Start()
     {
@@ -13,7 +13,7 @@ public class B_EnemyMove : MonoBehaviour
 
     IEnumerator FollowPath()
     {
-        foreach(B_WayPoints waypoint in path)
+        foreach(Waypoint waypoint in path)
         {
             Vector3 startPosition = transform.position;
             Vector3 endPosition = waypoint.transform.position;
