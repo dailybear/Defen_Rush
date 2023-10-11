@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8344430284684572133}
   - component: {fileID: 6891367233401571318}
   - component: {fileID: 182307749026344902}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: UpgradeIUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -315,7 +315,7 @@ GameObject:
   - component: {fileID: 4743532907613681322}
   - component: {fileID: 4733775916355145198}
   - component: {fileID: 4725854619831507908}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ForestCatapultWheelFL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -396,7 +396,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4741069258487749176}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ForestCatapultWheels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -434,7 +434,8 @@ GameObject:
   - component: {fileID: 6449192144658411798}
   - component: {fileID: 7805510366405635507}
   - component: {fileID: 4053946360206905194}
-  m_Layer: 0
+  - component: {fileID: 8512955443310508105}
+  m_Layer: 6
   m_Name: ForestCatapult_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -454,6 +455,7 @@ Transform:
   m_LocalScale: {x: 2.2, y: 2.2, z: 2.2}
   m_ConstrainProportionsScale: 1
   m_Children:
+  - {fileID: 5327295466211696634}
   - {fileID: 5724469385329548530}
   - {fileID: 4743961987476005706}
   - {fileID: 4740810859397368218}
@@ -514,6 +516,27 @@ MonoBehaviour:
   projectileParticle: {fileID: 433712728337050829}
   target: {fileID: 0}
   range: 40
+--- !u!95 &8512955443310508105
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4738037881980336016}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5a94ee4ffd7d01b42aeafb5862d6d12b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4738219066912841988
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,7 +548,7 @@ GameObject:
   - component: {fileID: 4740641416923792196}
   - component: {fileID: 4734186081982493004}
   - component: {fileID: 4724349158964436590}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ForestCatapultWheelRL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -608,8 +631,7 @@ GameObject:
   - component: {fileID: 4740810859397368218}
   - component: {fileID: 4734347046909728036}
   - component: {fileID: 4726144707573803896}
-  - component: {fileID: 4621839329997099856}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ForestCatapultArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -630,7 +652,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4741076388495907694}
-  - {fileID: 5327295466211696634}
   m_Father: {fileID: 4741094332279513634}
   m_LocalEulerAnglesHint: {x: 4.9160004, y: 0, z: 0}
 --- !u!33 &4734347046909728036
@@ -683,27 +704,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &4621839329997099856
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4738254019202853602}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4738341977459082024
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,7 +715,7 @@ GameObject:
   - component: {fileID: 4743961987476005706}
   - component: {fileID: 4736728460678602298}
   - component: {fileID: 4724282635876178288}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ForestCatapultBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -798,7 +798,7 @@ GameObject:
   - component: {fileID: 4743917570296756096}
   - component: {fileID: 4734246073433854824}
   - component: {fileID: 4726340311604714032}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ForestCatapultWheelRR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -881,7 +881,7 @@ GameObject:
   - component: {fileID: 4743684417189506004}
   - component: {fileID: 4734000454852992576}
   - component: {fileID: 4726479275144535184}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ForestCatapultWheelFR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -966,7 +966,7 @@ GameObject:
   - component: {fileID: 4726096867262748404}
   - component: {fileID: 4685300698735215206}
   - component: {fileID: 4622472610303343728}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ForestCannonBall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1099,7 +1099,7 @@ GameObject:
   - component: {fileID: 4724523852951902184}
   - component: {fileID: 4685700297952137526}
   - component: {fileID: 4693531431691029690}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ForestCatapultArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1307,7 +1307,7 @@ GameObject:
   - component: {fileID: 5327295466211696634}
   - component: {fileID: 433712728337050829}
   - component: {fileID: 582398068308176386}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1322,12 +1322,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5800752824310497006}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.37, z: 2.22}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.04288584, y: -0, z: -0, w: 0.99908}
+  m_LocalPosition: {x: 0, y: 1.3206621, z: 1.2629011}
+  m_LocalScale: {x: 0.18907875, y: 0.18907875, z: 0.18907875}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4740810859397368218}
+  m_Father: {fileID: 4741094332279513634}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &433712728337050829
 ParticleSystem:
@@ -1465,7 +1465,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 21.95
+      scalar: 180.7
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -1583,7 +1583,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 7.7
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -5088,7 +5088,7 @@ ParticleSystem:
     radiusScale: 0.3
     collidesWith:
       serializedVersion: 2
-      m_Bits: 4294967295
+      m_Bits: 8
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &254208133325709519
+--- !u!1001 &6267570912243067959
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -50,12 +50,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4305335575917320502, guid: 088dfb01d4fa33f44b17a70a59fb3195, type: 3}
       propertyPath: m_Name
-      value: Ground Road
+      value: Ground_Winter
       objectReference: {fileID: 0}
     - target: {fileID: 9182042608962789739, guid: 088dfb01d4fa33f44b17a70a59fb3195, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 4300000, guid: dac1f6a026468af46b8928893e3eea27, type: 3}
+      objectReference: {fileID: 4300000, guid: 7e853044eb49cdc4693a9c05951e10fa, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
