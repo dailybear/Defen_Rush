@@ -50,11 +50,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2162749783611548854, guid: bbddc91bedf442243a4db5eef8b611b3, type: 3}
       propertyPath: isPlaceable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3422891065770693647, guid: bbddc91bedf442243a4db5eef8b611b3, type: 3}
       propertyPath: m_Name
-      value: Ground Variant-Desert 2
+      value: Ground Desert 2
       objectReference: {fileID: 0}
     - target: {fileID: 7733306963907570770, guid: bbddc91bedf442243a4db5eef8b611b3, type: 3}
       propertyPath: m_Mesh
