@@ -10,11 +10,11 @@ public class SkeletonAttack : MonoBehaviour
     [SerializeField] Transform leftHand; // 왼손(방패)
     [SerializeField] Transform rightHand; // 오른손(검)
 
-    public Animator anim; // 스켈레톤 애니메이터
+    Animator anim; // 스켈레톤 애니메이터
 
     void Start()
     {
-        anim = GetComponent<Animator>();
+        anim = GetComponentInChildren<Animator>();
         
     }
 

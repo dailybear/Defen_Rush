@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4123912962769424947}
-  - component: {fileID: 1323704259287077479}
   - component: {fileID: -5654083807486078498}
+  - component: {fileID: 4089212145887670957}
   m_Layer: 0
   m_Name: Tile01
   m_TagString: Untagged
@@ -35,20 +35,6 @@ Transform:
   - {fileID: 8211976128211749836}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1323704259287077479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1399050802546616568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee4e8fa44220ddc4e9200f48f995a7bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 5091722454398769593, guid: 87c6cdca8fcc3704f83eab8cf632f154, type: 3}
-  isPlaceable: 1
 --- !u!65 &-5654083807486078498
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70,6 +56,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 10, y: 10, z: 10}
   m_Center: {x: 0, y: -5, z: 0}
+--- !u!114 &4089212145887670957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399050802546616568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7b56219630c5894e85a34f270c2940a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPlaceable: 0
 --- !u!1 &8024214377856217056
 GameObject:
   m_ObjectHideFlags: 0
@@ -81,7 +80,6 @@ GameObject:
   - component: {fileID: 7885549010507025054}
   - component: {fileID: 2035322616772201450}
   - component: {fileID: 9021959787928659234}
-  - component: {fileID: 1933231507721266875}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -157,7 +155,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8024214377856217056}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
   m_Name: 
@@ -242,20 +240,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 2035322616772201450}
   m_maskType: 0
---- !u!114 &1933231507721266875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8024214377856217056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e847728c1954544a8da5707d453f2bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultColor: {r: 1, g: 1, b: 1, a: 1}
-  blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
 --- !u!1001 &8212630612070903244
 PrefabInstance:
   m_ObjectHideFlags: 0
