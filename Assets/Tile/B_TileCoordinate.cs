@@ -20,7 +20,7 @@ public class B_TileCoordinate : MonoBehaviour
         if (!Application.isPlaying)
         {
             DisplayCoordinates();
-            //nameParent();
+            nameParent();
         }
     }
     void DisplayCoordinates()

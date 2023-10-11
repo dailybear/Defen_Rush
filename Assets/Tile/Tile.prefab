@@ -193,6 +193,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 668010355958103480}
+  - component: {fileID: 1498011655329908074}
   m_Layer: 0
   m_Name: Tile
   m_TagString: Untagged
@@ -217,6 +218,18 @@ Transform:
   - {fileID: 175420077034665545}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1498011655329908074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7386168969776747926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca9679f38ea9d2144a371539f2f5aea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8174820310705146164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -285,6 +298,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 33838782530932874, guid: 1d9cc67243350f643b8c562ed0503c49, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: f9fc7ec022f09a6418b1b6f97f0c887b, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
