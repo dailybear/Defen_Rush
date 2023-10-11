@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 737662176713615759}
   - component: {fileID: 5416146043525597920}
   m_Layer: 0
-  m_Name: Ground
+  m_Name: Ground_Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7b56219630c5894e85a34f270c2940a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPlaceable: 0
+  isPlaceable: 1
 --- !u!65 &5416146043525597920
 BoxCollider:
   m_ObjectHideFlags: 0
