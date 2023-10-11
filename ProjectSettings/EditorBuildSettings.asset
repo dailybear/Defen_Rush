@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Bohun.unity
-    guid: 494b77bcfd926f947a8cab49b4a74a30
+    path: Assets/Scenes/Jhyeon.unity
+    guid: 355dbfa7fa1b0be4e86072b234eef54e
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
