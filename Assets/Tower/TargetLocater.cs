@@ -49,6 +49,6 @@ public class TargetLocater : MonoBehaviour
     void Attack(bool isActivce)
     {
         var emmisionModule = projectileParticle.emission;
-       emmisionModule.enabled = isActivce;
+          emmisionModule.enabled = isActivce;
     }
 }
