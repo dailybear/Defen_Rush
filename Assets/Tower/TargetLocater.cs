@@ -8,6 +8,12 @@ public class TargetLocater : MonoBehaviour
     [SerializeField] ParticleSystem projectileParticle;
     [SerializeField] Transform target;
     [SerializeField] float range = 15f;
+    Animator anim;
+
+    private void Awake()
+    {
+     anim = GetComponent<Animator>();   
+    }
 
     private void Update()
     {
@@ -48,6 +54,7 @@ public class TargetLocater : MonoBehaviour
     }
     void Attack(bool isActivce)
     {
+        anim.SetBool("isInRange", isActivce);
         var emmisionModule = projectileParticle.emission;
           emmisionModule.enabled = isActivce;
     }
