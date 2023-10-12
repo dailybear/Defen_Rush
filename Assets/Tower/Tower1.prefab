@@ -422,7 +422,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: {fileID: 5385745871094270350}
   projectileParticle: {fileID: 3885896964277265088}
-  target: {fileID: 3182332362639921237, guid: d908b085198b64f419cf5e89bf8eb37c, type: 3}
+  target: {fileID: 0}
   range: 30
 --- !u!114 &1393144690355411088
 MonoBehaviour:
@@ -439,10 +439,12 @@ MonoBehaviour:
   upgradeUI: {fileID: 1665354299093058275}
   upgradeButton: {fileID: 5639486455736616582}
   projectileParticle: {fileID: 3885896964277265088}
+  upgradeCost: 50
   meshes:
   - {fileID: 4300000, guid: ddeed831b3d4e3b47bcce076e2d9c239, type: 3}
   - {fileID: 4300000, guid: 5136ff11e9c6dd745b1799786c377b08, type: 3}
   - {fileID: 4300000, guid: 25876df4ae958c747b1ba94d7e385e32, type: 3}
+  nowMesh: 0
 --- !u!95 &5925353912378929419
 Animator:
   serializedVersion: 5
