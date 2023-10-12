@@ -5,33 +5,31 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Title.unity
     guid: 355dbfa7fa1b0be4e86072b234eef54e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Stage1.unity
-    guid: b558cdbd777c61748a65c609ffd78162
+    path: Assets/Scenes/Win.unity
+    guid: 7e84e9200d770df4a95a099d4290ea66
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
-
     guid: ae66cc0591cad184f94c0d6076784394
   - enabled: 1
     path: Assets/Scenes/LevelUp.unity
     guid: 7b55eb05bb0a8c74eb172e0cb084eaec
   - enabled: 1
+    path: Assets/Scenes/Stage1.unity
+    guid: b558cdbd777c61748a65c609ffd78162
+  - enabled: 1
     path: Assets/Scenes/Stage2.unity
     guid: 5f9c77e2e56c9474f85ba71a766b8fdc
   - enabled: 1
-    path: Assets/Scenes/Stage4.unity
-    guid: 7b1cf95b0857cfc428876fc80eb82b78
-  - enabled: 1
     path: Assets/Scenes/Stage3.unity
-
     guid: 9c1677a2fcc008f458cdf5b11552498f
   - enabled: 1
-    path: Assets/Scenes/Jimin_Dungeon.unity
+    path: Assets/Scenes/Stage4.unity
     guid: 7b1cf95b0857cfc428876fc80eb82b78
   m_configObjects: {}
