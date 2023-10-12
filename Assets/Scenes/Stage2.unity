@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4437185, g: 0.49306017, b: 0.572599, a: 1}
+  m_IndirectSpecularColor: {r: 0.44371822, g: 0.4930597, b: 0.5725984, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -40396,7 +40396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isplaying: 1
-  nextSceneName: Jimin_Winter
+  nextSceneName: Stage3
   gameWin: 0
   gameLose: 0
   getClear: 10

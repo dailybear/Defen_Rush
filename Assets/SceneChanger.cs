@@ -20,7 +20,7 @@ public class SceneChanger : MonoBehaviour
         else
         {
             if (Input.GetButtonDown("Submit"))
-                SceneManager.LoadScene("Jimin_Forest");
+                SceneManager.LoadScene("Stage1");
         }
         if (Input.GetKeyDown(KeyCode.R))
         {
@@ -30,7 +30,7 @@ public class SceneChanger : MonoBehaviour
 
     void Title()
     {
-            SceneManager.LoadScene("Jhyeon_NL");
+            SceneManager.LoadScene("LevelUp");
     }
     void GameClear()
     {

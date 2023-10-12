@@ -29,7 +29,7 @@ public class Castle : MonoBehaviour
         {
             // 게임 오버 씬 로드
             Debug.Log("Game Over!");
-            SceneManager.LoadScene("JHyeon_Lose");
+            SceneManager.LoadScene("GameOver");
         }
     }
     private void Update()

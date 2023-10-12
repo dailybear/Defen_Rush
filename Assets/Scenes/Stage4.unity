@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657952, g: 0.4964143, b: 0.57481855, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657928, g: 0.49641383, b: 0.57481813, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11771,7 +11771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxCastleHP: 500
-  slider: {fileID: 0}
+  slider: {fileID: 1211407607}
 --- !u!4 &469929355 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3885798209429246104, guid: 170b52e0ef9a9f744985ad20e1ae2b4f, type: 3}
@@ -29442,7 +29442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isplaying: 1
-  nextSceneName: Jhyeon_Win
+  nextSceneName: Win
   gameWin: 0
   gameLose: 0
   getClear: 10
