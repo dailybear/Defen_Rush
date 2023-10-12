@@ -9668,7 +9668,7 @@ GameObject:
   - component: {fileID: 394310258}
   m_Layer: 0
   m_Name: Path 2
-  m_TagString: Path
+  m_TagString: Path2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41975,7 +41975,7 @@ GameObject:
   - component: {fileID: 1768605612}
   m_Layer: 0
   m_Name: Path 3
-  m_TagString: Path
+  m_TagString: Path3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

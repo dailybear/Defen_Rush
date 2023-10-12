@@ -13,8 +13,11 @@ public class EnemyMover : MonoBehaviour
     SkeletonAttack sAttack;
     Enemy enemy;
 
+    
+
     void OnEnable()
     {
+        
         FindPath();
         ReturnToStart();
         StartCoroutine(FollowPath());
@@ -32,6 +35,7 @@ public class EnemyMover : MonoBehaviour
         path.Clear(); // 경로를 찾으면 기존의 것을 삭제 후 새 경로 추가
 
         GameObject parent = GameObject.FindGameObjectWithTag("Path");
+
         foreach (Transform child in parent.transform)
         {
             Waypoint waypoint = child.GetComponent<Waypoint>();
@@ -40,8 +44,8 @@ public class EnemyMover : MonoBehaviour
             {
                 path.Add(waypoint);
             }
-
         }
+
     }
 
     void ReturnToStart()

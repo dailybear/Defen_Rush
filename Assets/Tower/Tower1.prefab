@@ -421,7 +421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: {fileID: 5385745871094270350}
   projectileParticle: {fileID: 3885896964277265088}
-  target: {fileID: 0}
+  target: {fileID: 3182332362639921237, guid: d908b085198b64f419cf5e89bf8eb37c, type: 3}
   range: 30
 --- !u!114 &1393144690355411088
 MonoBehaviour:

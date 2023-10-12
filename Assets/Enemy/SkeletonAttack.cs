@@ -49,11 +49,13 @@ public class SkeletonAttack : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Castle")
+        
+        
+        if (other.tag == "Castle")
         {
             Attack();
         }
-
+        
     }
 
     public void Attack()
@@ -61,7 +63,7 @@ public class SkeletonAttack : MonoBehaviour
         anim.SetBool("IsAttack",true);
         enemyHP.ProcessHit();   // 공격할 때마다 hp--;
         Debug.Log("Attack!");
-        castle.CaslteHP(-10);
+        castle.CaslteHP(10);
     }
 
 }
