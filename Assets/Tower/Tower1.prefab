@@ -312,6 +312,7 @@ GameObject:
   - component: {fileID: -2056350407439068822}
   - component: {fileID: 6022541860071294825}
   - component: {fileID: 1393144690355411088}
+  - component: {fileID: 5925353912378929419}
   m_Layer: 0
   m_Name: Tower1
   m_TagString: Untagged
@@ -442,6 +443,27 @@ MonoBehaviour:
   - {fileID: 4300000, guid: ddeed831b3d4e3b47bcce076e2d9c239, type: 3}
   - {fileID: 4300000, guid: 5136ff11e9c6dd745b1799786c377b08, type: 3}
   - {fileID: 4300000, guid: 25876df4ae958c747b1ba94d7e385e32, type: 3}
+--- !u!95 &5925353912378929419
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5074688861076369913}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5247754180954449782
 GameObject:
   m_ObjectHideFlags: 0
@@ -4443,7 +4465,7 @@ ParticleSystem:
     radiusScale: 0.3
     collidesWith:
       serializedVersion: 2
-      m_Bits: 4294967295
+      m_Bits: 8
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
