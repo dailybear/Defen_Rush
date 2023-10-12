@@ -9,9 +9,6 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public Text killText;
 
-    private void Start()
-    {
-    }
     private void Awake()
     {
         instance = this;
