@@ -58,9 +58,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7751262921900283536, guid: f54bfe4221780c5439d980a9db77bfb5, type: 3}
       propertyPath: m_Name
-      value: Dungeon Ground - Copy
+      value: (0, 0)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 414718342615836293, guid: f54bfe4221780c5439d980a9db77bfb5, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
