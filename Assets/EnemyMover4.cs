@@ -12,8 +12,6 @@ public class EnemyMover4 : MonoBehaviour
     SkeletonAttack sAttack;
     Enemy enemy;
 
-
-
     void OnEnable()
     {
 
@@ -52,12 +50,7 @@ public class EnemyMover4 : MonoBehaviour
         transform.position = path[0].transform.position; // 게임오브젝트를 패스 시작 위치로
     }
 
-    void FinishPath()
-    {
-        //enemy.StealGold();
-        //sAttack.Attack();
-        //gameObject.SetActive(false);
-    }
+
 
     IEnumerator FollowPath()
     {
@@ -77,6 +70,6 @@ public class EnemyMover4 : MonoBehaviour
             }
 
         }
-        FinishPath();
+
     }
 }
