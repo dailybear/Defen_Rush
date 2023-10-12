@@ -17220,7 +17220,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Kill : 0000'
+  m_Text: 'Kill : 0'
 --- !u!222 &678039469
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -51753,6 +51753,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3699969571868636950, guid: a8b8338ab7448b7468c100ee08ea3326, type: 3}
   m_PrefabInstance: {fileID: 1452063167}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2118197170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2118197172}
+  - component: {fileID: 2118197171}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2118197171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118197170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ddc9b345ce97e46a9754b50974f091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kill: 0
+  killText: {fileID: 678039468}
+--- !u!4 &2118197172
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118197170}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2118561680
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52510,3 +52556,4 @@ SceneRoots:
   - {fileID: 9204322963039377685}
   - {fileID: 1207114555956340875}
   - {fileID: 280333772}
+  - {fileID: 2118197172}

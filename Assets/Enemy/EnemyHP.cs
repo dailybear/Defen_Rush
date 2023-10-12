@@ -37,6 +37,7 @@ public class EnemyHP : MonoBehaviour
             anim.SetBool("IsWalk", false);
             anim.SetBool("IsAttack", false);
             anim.SetBool("IsDie", true);
+            GameManager.instance.AddKill();
             gameObject.SetActive(false); 
             enemy.RewardGold();
         }
