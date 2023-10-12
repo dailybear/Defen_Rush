@@ -15,9 +15,10 @@ public class Castle : MonoBehaviour
     }
     void Start()
     {
-        
+        Debug.Log("curruntCastleHP : " + curruntCastleHP);
     }
-    public void CaslteHP(int damage)
+
+    public void CastleHP(int damage)
     {
         curruntCastleHP -= damage;
         Debug.Log("¼ºÀÇ HP : " + curruntCastleHP);
