@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &7643190648159521504
+--- !u!1001 &5170562001084925021
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -8,55 +8,51 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4337657355699054411, guid: 1a7fd82d69262014682b4f930ff530e6, type: 3}
+    - target: {fileID: 4400294263280824053, guid: 6308070b787ade74f95a933fc10aba7c, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: 3141cea43c2a8484c8683d2d65a5d8d8, type: 3}
-    - target: {fileID: 5288330627168776111, guid: 1a7fd82d69262014682b4f930ff530e6, type: 3}
-      propertyPath: isPlaceable
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6316860745292247183, guid: 1a7fd82d69262014682b4f930ff530e6, type: 3}
+    - target: {fileID: 6058767990512880675, guid: 6308070b787ade74f95a933fc10aba7c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6316860745292247183, guid: 1a7fd82d69262014682b4f930ff530e6, type: 3}
+    - target: {fileID: 6058767990512880675, guid: 6308070b787ade74f95a933fc10aba7c, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6316860745292247183, guid: 1a7fd82d69262014682b4f930ff530e6, type: 3}
+    - target: {fileID: 6058767990512880675, guid: 6308070b787ade74f95a933fc10aba7c, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6316860745292247183, guid: 1a7fd82d69262014682b4f930ff530e6, type: 3}
+    - target: {fileID: 6058767990512880675, guid: 6308070b787ade74f95a933fc10aba7c, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6316860745292247183, guid: 1a7fd82d69262014682b4f930ff530e6, type: 3}
+    - target: {fileID: 6058767990512880675, guid: 6308070b787ade74f95a933fc10aba7c, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6316860745292247183, guid: 1a7fd82d69262014682b4f930ff530e6, type: 3}
+    - target: {fileID: 6058767990512880675, guid: 6308070b787ade74f95a933fc10aba7c, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6316860745292247183, guid: 1a7fd82d69262014682b4f930ff530e6, type: 3}
+    - target: {fileID: 6058767990512880675, guid: 6308070b787ade74f95a933fc10aba7c, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6316860745292247183, guid: 1a7fd82d69262014682b4f930ff530e6, type: 3}
+    - target: {fileID: 6058767990512880675, guid: 6308070b787ade74f95a933fc10aba7c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6316860745292247183, guid: 1a7fd82d69262014682b4f930ff530e6, type: 3}
+    - target: {fileID: 6058767990512880675, guid: 6308070b787ade74f95a933fc10aba7c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6316860745292247183, guid: 1a7fd82d69262014682b4f930ff530e6, type: 3}
+    - target: {fileID: 6058767990512880675, guid: 6308070b787ade74f95a933fc10aba7c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8710173463787101974, guid: 1a7fd82d69262014682b4f930ff530e6, type: 3}
+    - target: {fileID: 6211506784667331421, guid: 6308070b787ade74f95a933fc10aba7c, type: 3}
       propertyPath: m_Name
       value: Dungeon Ground Road
       objectReference: {fileID: 0}
@@ -64,4 +60,4 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1a7fd82d69262014682b4f930ff530e6, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 6308070b787ade74f95a933fc10aba7c, type: 3}
