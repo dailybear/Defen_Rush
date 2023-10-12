@@ -9,11 +9,7 @@ public class SceneChanger : MonoBehaviour
     public string nextSceneName;
     public bool gameWin;
     public bool gameLose;
-
-
     [SerializeField] int getClear = 10;
-
-   
 
     void Update()
     {
@@ -26,15 +22,14 @@ public class SceneChanger : MonoBehaviour
             if (Input.GetButtonDown("Submit"))
                 SceneManager.LoadScene("Jimin_Forest");
         }
-
-        Title();
-
-        
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Title();
+        }
     }
 
     void Title()
     {
-        if (Input.GetKeyDown(KeyCode.R))
             SceneManager.LoadScene("Jhyeon_NL");
     }
     void GameClear()
