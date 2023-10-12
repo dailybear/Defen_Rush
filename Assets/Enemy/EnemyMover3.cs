@@ -48,6 +48,7 @@ public class EnemyMover3 : MonoBehaviour
 
     }
 
+
     void ReturnToStart()
     {
         transform.position = path[0].transform.position; // 게임오브젝트를 패스 시작 위치로
@@ -71,5 +72,6 @@ public class EnemyMover3 : MonoBehaviour
             }
 
         }
+
     }
 }

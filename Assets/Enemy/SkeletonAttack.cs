@@ -12,11 +12,13 @@ public class SkeletonAttack : MonoBehaviour
 
     Animator anim; // 스켈레톤 애니메이터
     EnemyHP enemyHP;
+    Enemy enemy;
     [SerializeField] Castle castle;
 
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
+        enemy = GetComponent<Enemy>();
         enemyHP = GetComponent<EnemyHP>();
         castle = FindObjectOfType<Castle>();
     }
@@ -48,6 +50,7 @@ public class SkeletonAttack : MonoBehaviour
         anim.SetIKRotation(AvatarIKGoal.RightHand, rightHand.rotation);
     }
 
+    
     private void OnTriggerEnter(Collider other)
     {
 
@@ -67,6 +70,7 @@ public class SkeletonAttack : MonoBehaviour
             enemyHP.ProcessHit();   // 공격할 때마다 hp--;
             Debug.Log("Attack!");
             castle.CastleHP(10);
+            
 
             yield return new WaitForSeconds(2f);
         }
