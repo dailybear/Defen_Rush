@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dungeon Ground Road
       objectReference: {fileID: 0}
+    - target: {fileID: 6404463816997927552, guid: 6308070b787ade74f95a933fc10aba7c, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

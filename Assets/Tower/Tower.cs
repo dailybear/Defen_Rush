@@ -39,7 +39,7 @@ public class Tower : MonoBehaviour
     }
     public void OpenUpgradeUI()
     {
-        if (nowMesh >= 2) return;
+        if (nowMesh >=meshes.Length-1) return;
         upgradeUI.SetActive(true);
     }
     public void CloseUpgradeUI()
