@@ -17,4 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jhyeon_Lose.unity
     guid: ae66cc0591cad184f94c0d6076784394
+  - enabled: 1
+    path: Assets/Scenes/Jhyeon_NL.unity
+    guid: 7b55eb05bb0a8c74eb172e0cb084eaec
+  - enabled: 1
+    path: Assets/Scenes/Jimin_Desert.unity
+    guid: 5f9c77e2e56c9474f85ba71a766b8fdc
+  - enabled: 1
+    path: Assets/Scenes/Jimin_Dungeon.unity
+    guid: 7b1cf95b0857cfc428876fc80eb82b78
+  - enabled: 1
+    path: Assets/Scenes/Jimin_Winter.unity
+    guid: 9c1677a2fcc008f458cdf5b11552498f
   m_configObjects: {}
