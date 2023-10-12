@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,7 @@ public class Tower : MonoBehaviour
     [SerializeField] private GameObject upgradeUI;
     [SerializeField] private Button upgradeButton;
     [SerializeField] ParticleSystem projectileParticle;
+    [SerializeField] int upgradeCost = 50;
     private float fireSpeed =1f;
     public Mesh[] meshes;
     private MeshFilter meshFilter;
@@ -24,14 +26,19 @@ public class Tower : MonoBehaviour
         
     }
     public void ClickUpgrade()
-    {
-        Debug.Log("업그레이드");
-        nowMesh += 1;
-        fireSpeed += 0.5f;
-        meshFilter.sharedMesh = meshes[nowMesh];
-        upgradeUI.SetActive(false);
-        var emmisionModule = projectileParticle.emission;
-        emmisionModule.rateOverTime = fireSpeed;
+    { 
+        Bank bank = FindAnyObjectByType<Bank>();
+        if (bank.CurrentBalance>= upgradeCost)
+        {
+            nowMesh += 1;
+            fireSpeed += 0.5f;
+            meshFilter.sharedMesh = meshes[nowMesh];
+            var emmisionModule = projectileParticle.emission;
+            emmisionModule.rateOverTime = fireSpeed;
+            upgradeUI.SetActive(false);
+            bank.Withdraw(upgradeCost);
+        }
+        
     }
     private void OnMouseDown()
     {
