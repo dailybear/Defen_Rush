@@ -12,7 +12,10 @@ public class Bank : MonoBehaviour
 
     // 프로퍼티
     public int CurrentBalance { get { return currentBalance; } }
-
+    private void Update()
+    {
+        UpdateDisplay();
+    }
     void Awake()
     {
         currentBalance = startingBalance;

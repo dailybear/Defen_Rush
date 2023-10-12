@@ -10,12 +10,6 @@ public class SceneChanger : MonoBehaviour
     public bool gameLose;
     public Animator anim;
 
-    void Start()
-    {
-        anim.SetBool("Win", gameWin);
-        anim.SetBool("Lose", gameLose);
-    }
-
     void Update()
     {
         if(Input.GetButtonDown("Submit"))
