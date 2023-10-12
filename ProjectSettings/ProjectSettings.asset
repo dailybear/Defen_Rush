@@ -820,7 +820,13 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
   cloudServicesEnabled:
+    Build: 0
+    Game Performance: 0
+    Legacy Analytics: 0
+    Purchasing: 0
+    UDP: 0
     UNet: 1
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -840,11 +846,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: a8a6f003-ddb5-468e-93ed-7b683e2d8430
+  cloudProjectId: 7b6c5935-f893-4b19-980f-fb3598d44aaa
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: Defen_Rush
-  organizationId: qkm0528
+  organizationId: slawkd2002
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
