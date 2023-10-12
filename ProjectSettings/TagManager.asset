@@ -8,6 +8,7 @@ TagManager:
   - Castle
   - Path2
   - Path3
+  - Path4
   layers:
   - Default
   - TransparentFX
