@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] int kill;
+    public int kill;
     public static GameManager instance;
     public Text killText;
 
