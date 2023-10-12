@@ -13,7 +13,7 @@ public class Tower : MonoBehaviour
     private float fireSpeed =1f;
     public Mesh[] meshes;
     private MeshFilter meshFilter;
-    private int nowMesh = 0;
+    public int nowMesh = 0;
     Tower tower;
 
     private void Awake()
@@ -38,8 +38,9 @@ public class Tower : MonoBehaviour
             upgradeUI.SetActive(false);
             bank.Withdraw(upgradeCost);
         }
-        
+        upgradeUI.SetActive(false);
     }
+
     private void OnMouseDown()
     {
         tower.OpenUpgradeUI();
