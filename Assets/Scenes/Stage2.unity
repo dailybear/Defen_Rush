@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44371822, g: 0.4930597, b: 0.5725984, a: 1}
+  m_IndirectSpecularColor: {r: 0.4437185, g: 0.49306017, b: 0.572599, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5396,7 +5396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 836d73b96a0aabe4da38ae27c0509934, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxCastleHP: 500
+  maxCastleHP: 350
   slider: {fileID: 278479568}
 --- !u!1001 &267274029
 PrefabInstance:
@@ -5799,9 +5799,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 500
+  m_MaxValue: 350
   m_WholeNumbers: 0
-  m_Value: 500
+  m_Value: 350
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
