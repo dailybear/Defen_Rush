@@ -19,6 +19,6 @@ public class SceneChanger : MonoBehaviour
     void Update()
     {
         if(Input.GetButtonDown("Submit"))
-            SceneManager.LoadScene(nextSceneName);
+            SceneManager.LoadScene("Jimin_Forest");
     }
 }
