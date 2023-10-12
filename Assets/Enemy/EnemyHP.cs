@@ -34,6 +34,8 @@ public class EnemyHP : MonoBehaviour
         // 현재HP가 0이하일 시 게임오브젝트 비활성화 및 보상 골드 획득
         if (curruntHP <= 0)
         {
+            anim.SetBool("IsWalk", false);
+            anim.SetBool("IsAttack", false);
             anim.SetBool("IsDie", true);
             gameObject.SetActive(false); 
             enemy.RewardGold();
