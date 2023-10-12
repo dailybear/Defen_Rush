@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 [RequireComponent(typeof(Enemy))]
-public class EnemyMover : MonoBehaviour
+public class EnemyMover2 : MonoBehaviour
 {
     [SerializeField] List<Waypoint> path = new List<Waypoint>(); // 인스펙터에서의 접근을 허용
     [SerializeField] [Range(0f, 5f)] float speed = 1f;
@@ -12,12 +11,9 @@ public class EnemyMover : MonoBehaviour
     Animator anim;
     SkeletonAttack sAttack;
     Enemy enemy;
-
-    
-
     void OnEnable()
     {
-        
+
         FindPath();
         ReturnToStart();
         StartCoroutine(FollowPath());
@@ -34,7 +30,7 @@ public class EnemyMover : MonoBehaviour
     {
         path.Clear(); // 경로를 찾으면 기존의 것을 삭제 후 새 경로 추가
 
-        GameObject parent = GameObject.FindGameObjectWithTag("Path");
+        GameObject parent = GameObject.FindGameObjectWithTag("Path2");
 
         foreach (Transform child in parent.transform)
         {
@@ -52,14 +48,6 @@ public class EnemyMover : MonoBehaviour
     {
         transform.position = path[0].transform.position; // 게임오브젝트를 패스 시작 위치로
     }
-
-    void FinishPath()
-    {
-        //enemy.StealGold();
-        //sAttack.Attack();
-        //gameObject.SetActive(false);
-    }
-
     IEnumerator FollowPath()
     {
         foreach (Waypoint waypoint in path)
@@ -78,6 +66,5 @@ public class EnemyMover : MonoBehaviour
             }
 
         }
-        FinishPath();
     }
 }
