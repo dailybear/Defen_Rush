@@ -30,7 +30,7 @@ public class EnemyHP : MonoBehaviour
     public void ProcessHit()
     {
         curruntHP--; // 현재 hp - 1
-
+        Debug.Log("적 현재 HP : " + curruntHP);
         // 현재HP가 0이하일 시 게임오브젝트 비활성화 및 보상 골드 획득
         if (curruntHP <= 0)
         {

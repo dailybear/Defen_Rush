@@ -18,6 +18,7 @@ public class SkeletonAttack : MonoBehaviour
     {
         anim = GetComponentInChildren<Animator>();
         enemyHP = GetComponent<EnemyHP>();
+        castle = FindObjectOfType<Castle>();
     }
 
     private void OnEnable()
@@ -49,21 +50,26 @@ public class SkeletonAttack : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        
-        
+
         if (other.tag == "Castle")
         {
-            Attack();
+            Debug.Log("닿았다!");
+            StartCoroutine(Attack());
         }
         
     }
 
-    public void Attack()
+    public IEnumerator Attack()
     {
-        anim.SetBool("IsAttack",true);
-        enemyHP.ProcessHit();   // 공격할 때마다 hp--;
-        Debug.Log("Attack!");
-        castle.CaslteHP(10);
+        anim.SetBool("IsAttack", true);
+        while (true)
+        {
+            enemyHP.ProcessHit();   // 공격할 때마다 hp--;
+            Debug.Log("Attack!");
+            castle.CastleHP(10);
+
+            yield return new WaitForSeconds(2f);
+        }
     }
 
 }

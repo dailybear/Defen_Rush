@@ -6,18 +6,19 @@ using UnityEngine.SceneManagement;
 // 己狼 HP 包府
 public class Castle : MonoBehaviour
 {
-    int maxCaslteHP = 100;
+    [SerializeField] int maxCastleHP = 500;
     int curruntCastleHP = 0; 
 
     private void OnEnable()
     {
-        curruntCastleHP = maxCaslteHP;
+        curruntCastleHP = maxCastleHP;
+        Debug.Log("矫累矫 己 HP : " + curruntCastleHP);
     }
     void Start()
     {
         
     }
-    public void CaslteHP(int damage)
+    public void CastleHP(int damage)
     {
         curruntCastleHP -= damage;
         Debug.Log("己狼 HP : " + curruntCastleHP);
