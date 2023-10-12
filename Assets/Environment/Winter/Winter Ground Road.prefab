@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Winter Ground Road
       objectReference: {fileID: 0}
+    - target: {fileID: 4023831043242910720, guid: e3f1654c929f7064d9db8c9fbfade8f7, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8135924877351632196, guid: e3f1654c929f7064d9db8c9fbfade8f7, type: 3}
       propertyPath: m_Mesh
       value: 

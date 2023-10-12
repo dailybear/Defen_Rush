@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2070542321826945469, guid: 7a23ca5f0738ea943aae585b59b0d1e5, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3503899485527115089, guid: 7a23ca5f0738ea943aae585b59b0d1e5, type: 3}
       propertyPath: m_Name
       value: Desert Ground Road
