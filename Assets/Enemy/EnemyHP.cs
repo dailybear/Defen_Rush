@@ -6,7 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(Enemy))]
 public class EnemyHP : MonoBehaviour
 {
-    [SerializeField] int maxHP = 5;
+    [SerializeField] int maxHP = 3;
     [SerializeField] int difficultyRamp = 1;
     int curruntHP = 0;
     Enemy enemy;

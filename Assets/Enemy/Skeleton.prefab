@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   path: []
-  speed: 2
+  speed: 0.6
 --- !u!114 &5999280461055178195
 MonoBehaviour:
   m_ObjectHideFlags: 0
