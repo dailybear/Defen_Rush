@@ -466,7 +466,7 @@ GameObject:
   - component: {fileID: 814683444}
   - component: {fileID: 814683443}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: LevelUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -861,10 +861,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd5fa4662e0010643b306dc4364f3a45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isplaying: 0
   nextSceneName: jhyeon
+  pastSceneName: 
   gameWin: 1
   gameLose: 0
-  anim: {fileID: 0}
+  getClear: 10
 --- !u!1 &1728706627
 GameObject:
   m_ObjectHideFlags: 0
