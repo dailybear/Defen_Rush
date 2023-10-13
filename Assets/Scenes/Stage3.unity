@@ -16501,7 +16501,7 @@ MonoBehaviour:
   pastSceneName: Stage2
   gameWin: 0
   gameLose: 0
-  getClear: 10
+  getClear: 30
 --- !u!4 &768100231
 Transform:
   m_ObjectHideFlags: 0
@@ -19383,6 +19383,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1168280515}
     m_Modifications:
+    - target: {fileID: 6024395176609726884, guid: aaabc1a0eb954044994ac649676ad121, type: 3}
+      propertyPath: m_text
+      value: 7,0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6024395176609726884, guid: aaabc1a0eb954044994ac649676ad121, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 190134906723976620, guid: 7a23ca5f0738ea943aae585b59b0d1e5, type: 3}
       propertyPath: m_text
       value: 34,0
@@ -19438,14 +19446,6 @@ PrefabInstance:
     - target: {fileID: 7571663396274074422, guid: 7a23ca5f0738ea943aae585b59b0d1e5, type: 3}
       propertyPath: m_text
       value: 34,0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6024395176609726884, guid: aaabc1a0eb954044994ac649676ad121, type: 3}
-      propertyPath: m_text
-      value: 7,0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6024395176609726884, guid: aaabc1a0eb954044994ac649676ad121, type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

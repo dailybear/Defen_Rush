@@ -40722,7 +40722,7 @@ MonoBehaviour:
   pastSceneName: Stage1
   gameWin: 0
   gameLose: 0
-  getClear: 10
+  getClear: 20
 --- !u!4 &2014905441
 Transform:
   m_ObjectHideFlags: 0
